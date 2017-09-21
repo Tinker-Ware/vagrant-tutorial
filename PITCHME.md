@@ -21,7 +21,10 @@ https://github.com/PowerShell/PowerShell/releases/tag/v6.0.0-beta.7
 B. Iniciar cmd como admnistrador y correr los siguientes comandos
 
 1. Para instalar chocolatey correer el siguiente comando:
+
 `@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
+
++++
 
 2. Para instalar openssh correer el siguiente comando:
 `choco install openssh`
