@@ -26,13 +26,11 @@ B. Iniciar cmd como admnistrador y correr los siguientes comandos
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
 
-+++
-
 2. Para instalar openssh correer el siguiente comando:
-`choco install openssh`
+```choco install openssh```
 
 3. Para recargar el ambiente correr el siguiente comando:
-refreshenv
+```refreshenv```
 
 +++
 
