@@ -68,7 +68,8 @@ https://www.vagrantup.com/downloads.html
 1. Crear un directorio de trabajo
 2. Iniciar powershell y entrar a la ruta de trabajo
 3. Clonar el repo o descargarlo directamente
-```git clone https://github.com/Tinker-Ware/vagrant-tutorial.git
+```
+git clone https://github.com/Tinker-Ware/vagrant-tutorial.git
 ```
 3. Entrar al folder
 ```
