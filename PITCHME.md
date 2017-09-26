@@ -64,15 +64,27 @@ https://www.vagrantup.com/downloads.html
 
 1. Add the .NET product feed
 
-```sudo apt-get update```
+```
+sudo apt-get update
+```
 
-```sudo apt-get install curl libunwind8 gettext apt-transport-https```
+```
+sudo apt-get install curl libunwind8 gettext apt-transport-https
+```
 
-```curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg```
+```
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+```
 
-```sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg```
++++
 
-```sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-debian-jessie-prod jessie main" > /etc/apt/sources.list.d/dotnetdev.list'```
+```
+sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+```
+
+```
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-debian-jessie-prod jessie main" > /etc/apt/sources.list.d/dotnetdev.list'
+```
 
 +++
 
