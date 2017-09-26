@@ -2,7 +2,15 @@
 
 Vagrant maneja los procesos de creacion de una maquina virtual basado en tus definiciones, y usa herramientas de automatización como Ansible y Puppet para provisionar la customizacion de la maquina - instalando paquetes, reuniendo información, realizando tareas, etc.
 
-Corriendo unicamente ***vagrant up***, una maquina virtual será preparada de acuerdo a la confinguración especificada en el archivo de configuración.
++++
+
+## Ventajas
+
+- Potabilidad
+- Utilizar herramientas de provisionamiento
+- Encapsulamiento
+- Limitanción recursos
+- Kernel
 
 ---
 
