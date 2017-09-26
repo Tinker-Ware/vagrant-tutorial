@@ -6,6 +6,15 @@ Corriendo unicamente ***vagrant up***, una maquina virtual será preparada de ac
 
 ---
 
+## Tecnologias necesarias
+
+1. Powershell
+2. Openssh
+3. Virtualbox
+4. Vagrant
+
+---
+
 ### Intalar
 
 ## Powershell
