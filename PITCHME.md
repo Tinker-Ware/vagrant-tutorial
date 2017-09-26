@@ -18,7 +18,7 @@ https://github.com/PowerShell/PowerShell/releases/tag/v6.0.0-beta.7
 
 ## Install openssh
 
-B. Iniciar cmd como admnistrador y correr los siguientes comandos
+B. Iniciar cmd como admnistrador
 
 1. Para instalar chocolatey correer el siguiente comando:
 
@@ -58,9 +58,17 @@ https://www.vagrantup.com/downloads.html
 
 1. Crear un directorio de trabajo
 2. Iniciar powershell y entrar a la ruta de trabajo
-3. Clonar el repo con el comando `git clone https://github.com/Tinker-Ware/vagrant-tutorial.git` o descargarlo directamente si no se tiene git instalado.
-3. Entrar al folder `vagrant-tutorial.git`
-4. Ejecutar el comando `vagrant up`
+3. Clonar el repo con el comando
+```git clone https://github.com/Tinker-Ware/vagrant-tutorial.git
+``` o descargarlo directamente si no se tiene git instalado.
+3. Entrar al folder
+```
+vagrant-tutorial.git
+```
+4. Ejecutar
+```
+vagrant up
+```
 
 ---
 
