@@ -76,8 +76,6 @@ sudo apt-get install curl libunwind8 gettext apt-transport-https
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 ```
 
-+++
-
 ```
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 ```
@@ -90,16 +88,26 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsof
 
 2. Install .NET Core SDK
 
-```sudo apt-get update```
+```
+sudo apt-get update
+```
 
-```sudo apt-get install dotnet-sdk-2.0.0```
+```
+sudo apt-get install dotnet-sdk-2.0.0
+```
 
 +++
 
 3. Initialize some code
 
-```dotnet new console -o hwapp```
+```
+dotnet new console -o newProyect
+```
 
-```cd hwapp```
+```
+cd newProyect
+```
 
-```dotnet run```
+```
+dotnet run
+```
