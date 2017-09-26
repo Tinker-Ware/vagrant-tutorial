@@ -27,10 +27,14 @@ B. Iniciar cmd como admnistrador y correr los siguientes comandos
 ```
 
 2. Para instalar openssh correer el siguiente comando:
-```choco install openssh```
+```
+choco install openssh
+```
 
 3. Para recargar el ambiente correr el siguiente comando:
-```refreshenv```
+```
+refreshenv
+```
 
 +++
 
