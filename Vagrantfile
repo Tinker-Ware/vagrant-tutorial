@@ -4,5 +4,5 @@
 Vagrant.configure("2") do |config|
   # Configure Box
   config.vm.box = "debian/contrib-jessie64"
-
+  config.ssh.insert_key = false
 end
