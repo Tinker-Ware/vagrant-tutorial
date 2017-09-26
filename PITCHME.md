@@ -57,3 +57,41 @@ https://www.vagrantup.com/downloads.html
 3. Clonar el repo con el comando `git clone https://github.com/Tinker-Ware/vagrant-tutorial.git` o descargarlo directamente si no se tiene git instalado.
 3. Entrar al folder `vagrant-tutorial.git`
 4. Ejecutar el comando `vagrant up`
+
+---
+
+## Install .NET
+
+1. Add the .NET product feed
+
+`sudo apt-get update`
+
+`sudo apt-get install curl libunwind8 gettext apt-transport-https`
+
+`curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg`
+
+`sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg`
+
+```sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-debian-jessie-prod jessie main" > /etc/apt/sources.list.d/dotnetdev.list'```
+
++++
+
+2. Install .NET Core SDK
+
+`sudo apt-get update`
+
+`sudo apt-get install dotnet-sdk-2.0.0`
+
++++
+
+3. Initialize some code
+
+`sudo mv /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0 /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0.old`
+
+`dotnet new console -o hwapp`
+
+`cd hwapp`
+
+```using System;
+
+`dotnet run`
