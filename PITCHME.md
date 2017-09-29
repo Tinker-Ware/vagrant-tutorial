@@ -141,3 +141,14 @@ cd newProyect
 ```
 dotnet run
 ```
+
+---
+
+## Comandos de Vagrant
+
+1. Vagrant ssh. Entrar mediante ssh a la máquina virtual.
+2. Vagrant up. Iniciar la máquina virtual.
+3. Vagrant status. Ver el estatus de la máquina virtual.
+4. Vagrant halt. Apagar máquina virtual.
+5. Vagrant destroy. Destruir máquina virtual.
+6. Vagrant reload. Recargar coniguración.
