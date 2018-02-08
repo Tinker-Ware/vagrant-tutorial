@@ -123,7 +123,7 @@ sudo apt-get update
 ```
 
 ```
-sudo apt-get install dotnet-sdk-2.0.0
+sudo apt-get install dotnet-sdk-2.1.4
 ```
 
 +++
